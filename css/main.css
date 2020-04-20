@@ -1,0 +1,23 @@
+body {
+  background-image: url("../images/dino_background.jpg");
+  background-repeat: repeat;
+}
+
+#form-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#animal-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.animal-list-item {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #20437c;
+  border-radius: 5%;
+  background: #ddeaff;
+}
